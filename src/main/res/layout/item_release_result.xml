@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_item"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/selector_blue_white_bg"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lost_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="@dimen/dp_10"/>
+        <TextView
+            android:id="@+id/lost_fount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="@dimen/dp_10"/>
+        <TextView
+            android:id="@+id/lost_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="@dimen/dp_10"/>
+    </LinearLayout>
+</LinearLayout>
